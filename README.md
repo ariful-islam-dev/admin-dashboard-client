@@ -6,12 +6,12 @@
 
 - [x] React
 - [ ] React-Router-Dom
-- [ ] React-Redux
-- [ ] Redux Toolkit
-- [ ] Mui Material
+- [x] React-Redux
+- [x] Redux Toolkit
+- [x] Mui Material
 - [ ] Material Icons
 - [ ] React Datepicker
-- [ ] Nivo(Chart)
+- [x] Nivo(Chart)
   - [ ] Bar
   - [ ] Pie
   - [ ] Geo
