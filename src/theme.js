@@ -1,5 +1,8 @@
 export const tokensDark = {
   gray: {
+    0:"#ffffff",
+    10:"#f6f6f6",
+    50:"#f0f0f0",
     100: "#e0e0e0",
     200: "#c2c2c2",
     300: "#a3a3a3",
@@ -22,6 +25,7 @@ export const tokensDark = {
     900: "#070812",
   },
   secondary: {
+    50:"#f0f0f0",
     100: "#fff6e0",
     200: "#ffedc2",
     300: "#ffe3a3",
@@ -90,11 +94,11 @@ export const themeSettings = (mode) => {
             },
             neutral: {
               ...tokensLight.gray,
-              light: tokensLight.gray[500],
+              light: tokensDark.gray[500],
             },
             background: {
               default: tokensDark.gray[0],
-              alt: tokensDark.gray[100],
+              alt: tokensDark.gray[50],
             },
           }),
     },
